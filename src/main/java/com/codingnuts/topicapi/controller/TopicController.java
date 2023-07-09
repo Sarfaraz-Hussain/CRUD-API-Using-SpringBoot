@@ -1,7 +1,7 @@
 package com.codingnuts.topicapi.controller;
 
 
-import com.codingnuts.topicapi.model.Topic;
+import com.codingnuts.topicapi.entity.Topic;
 import com.codingnuts.topicapi.service.TopicService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

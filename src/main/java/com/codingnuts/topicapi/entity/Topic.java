@@ -1,6 +1,12 @@
-package com.codingnuts.topicapi.model;
+package com.codingnuts.topicapi.entity;
 
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Topic {
+    @Id
     private String id;
     private String name;
     private String description;
